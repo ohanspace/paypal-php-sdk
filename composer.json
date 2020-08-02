@@ -1,0 +1,23 @@
+{
+    "name": "ohanspace/paypal-php-sdk",
+    "description": "PayPal's PHP SDK for PayPal REST APIs",
+    "keywords": ["paypal", "payments", "rest", "sdk", "orders", "checkout", "subscription"],
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://github.com/ohanspace/paypal-php-sdk/",
+    "authors": [{
+        "name": "PayPal",
+        "homepage": "https://github.com/paypal/Checkout-PHP-SDK/contributors"
+    }, {
+        "name": "Borhan Chowdhury",
+        "email": "borhan.chittagong@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ohanspace\\PayPalPHPSdk\\": "src/"
+        }
+    },
+    "require": {
+        "paypal/paypalhttp": "^1.0"
+    }
+}
